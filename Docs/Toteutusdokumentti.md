@@ -15,11 +15,6 @@ Aika- ja tilavaativuudet
 * Tietorakenteiden perusoperaatioiden vaativuudet vastaavat näkemäkseni teoreettisia.
 * ArrayListien järjestämiseen on käytetty mergesorttia, aikavaativuus O(n + nlogn) = O(nlogn).
 
-Puutteet- ja parannusehdotukset
-===============================
-* Demossa kerroin, että voittaisin tekoälyn. Tämä ei kuitenkaan ole ainakaan nykyiselle tekoälylle totta, sillä kattava kokeilu jälkeenpäin antaa tulokseksi, että häviän sille joka ikinen kerta. Kritiikkini sitä vastaan on kuitenkin sama, tekoäly ei voittaisi pelaajaa jolla on paljon pitkän tähtäimen strategista silmää.
-* Tekoälyni toimintaperiaate, eli eri pisteiden arvon arviointi ennalta määritettyjen vakioiden perusteella, on toimiva, mutta huonompi vaihtoehto eri tilanteiden arviointiin. Tästä tarkemmin: http://radagast.se/othello/howto.html
-* Keskivaiheella vuoroihin kestää joskus tekoälyltä hieman liian kauan. Tähän olisi auttanut transpositiotaulu, mutta se osoittautui ajanpuutteessa liian haastavaksi toteuttaa. Toinen mikä auttaisi, olisi parempi tilanteiden arviointi, viimeisessä lähteessä esitetyin strategioin, mutta niiden toteuttaminen tuntui liian haastavalta.
 
 Lähteet
 =======
